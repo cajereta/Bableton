@@ -3,10 +3,8 @@
   const listRight = ["Live", "Push", "Note", "Link", "Shop", "Packs", "Help"];
   const listSecondary = ["Jobs", "Apprenticeships"];
   let y = window.scrollY;
-  $: console.log(y);
   let prevScroll = window.pageYOffset;
   let open;
-  import { fly } from "svelte/transition";
   let innerWidth;
 </script>
 

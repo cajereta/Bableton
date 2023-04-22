@@ -205,13 +205,14 @@
     padding: 1rem;
     background-color: #f3f3f3;
     border: none;
-    color: darkgrey;
+    color: rgb(47, 47, 47);
   }
   button {
     padding: 1rem;
     width: 25%;
     background-color: blue;
     border: none;
+    font-weight: bold;
   }
   .language {
     padding: 8px;
